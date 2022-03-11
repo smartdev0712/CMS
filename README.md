@@ -1,8 +1,6 @@
 # PyEditorial
 A free, open-source Blog CMS based on the "Django" and "Editorial" HTML5 theme.
 
-![](https://img.shields.io/github/stars/mavenium/PyEditorial) ![](https://img.shields.io/github/forks/mavenium/PyEditorial) ![](https://img.shields.io/github/issues/mavenium/PyEditorial) ![](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fmavenium%2FPyEditorial)
-
 ------------
 ### Features
 
@@ -34,40 +32,40 @@ A free, open-source Blog CMS based on the "Django" and "Editorial" HTML5 theme.
 ------------
 ### Screenshots
 
-![](https://raw.githubusercontent.com/mavenium/PyEditorial/master/Screenshots/Index.png)
+![](Screenshots/Index.png)
 > Index Page
 
-![](https://raw.githubusercontent.com/mavenium/PyEditorial/master/Screenshots/Archive.png)
+![](Screenshots/Archive.png)
 > Archive Page
 
-![](https://raw.githubusercontent.com/mavenium/PyEditorial/master/Screenshots/Blog-Single.png)
+![](Screenshots/Blog-Single.png)
 > Blog Single Page
 
-![](https://raw.githubusercontent.com/mavenium/PyEditorial/master/Screenshots/Podcast-Single.png)
+![](Screenshots/Podcast-Single.png)
 > Podcast Single Page
 
-![](https://raw.githubusercontent.com/mavenium/PyEditorial/master/Screenshots/Videocast-Single.png)
+![](Screenshots/Videocast-Single.png)
 > Videocast Single Page
 
-![](https://raw.githubusercontent.com/mavenium/PyEditorial/master/Screenshots/Admin.png)
+![](Screenshots/Admin.png)
 > Admin Area
 
-![](https://raw.githubusercontent.com/mavenium/PyEditorial/master/Screenshots/Constance.png)
+![](Screenshots/Constance.png)
 > Dynamic Django Settings
 
-![](https://raw.githubusercontent.com/mavenium/PyEditorial/master/Screenshots/Blog-Admin.png)
+![](Screenshots/Blog-Admin.png)
 > Blog Section
 
-![](https://raw.githubusercontent.com/mavenium/PyEditorial/master/Screenshots/Add-Blog.png)
+![](Screenshots/Add-Blog.png)
 > Add Blog
 
-![](https://raw.githubusercontent.com/mavenium/PyEditorial/master/Screenshots/Add-Videocast.png)
+![](Screenshots/Add-Videocast.png)
 > Add Videocast
 
-![](https://github.com/mavenium/PyEditorial/blob/master/Screenshots/Add-Skill.png)
+![](Screenshots/Add-Skill.png)
 > Add Skill
 
-![](https://raw.githubusercontent.com/mavenium/PyEditorial/master/Screenshots/Add-Podcast.png)
+![](Screenshots/Add-Podcast.png)
 > Add Podcast
 
 ------------
@@ -76,7 +74,7 @@ A free, open-source Blog CMS based on the "Django" and "Editorial" HTML5 theme.
 1. Install `git`,`python3`, `pip3`, `virtualenv` in your operating system
 2. Create a development environment ready by using these commands
 ```
-git clone https://github.com/mavenium/PyEditorial		# clone the project
+git clone https://github.com/artem712/CMS		# clone the project
 cd PyEditorial		                                        # go to the project DIR
 virtualenv -p python3 .venv		                        # Create virtualenv named .venv
 source .venv/bin/activate		                        # Active virtualenv named .venv
@@ -100,12 +98,3 @@ docker-compose up [-d]
 3. Go to  `http://127.0.0.1:8000/` to use project
 ------------
 
-### Notes
-The Editorial template is released under license "Creative Commons Attribution 3.0 Unported".
-
-------------
-### TODO list
-
-- [x] Create search section
-- [x] Create user Login/Logout forms in front-end
-- [x] Create dynamic forms to add contents in front-end
